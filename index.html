@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie App</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+  <header class="container">
+    <div class="mobile">
+      <div class="logo">
+        <figure>
+          <img src="images/site-logo.png" alt="Site Logo" width="60" height="60" loading="lazy">
+        </figure>
+      </div>
+      <a href="javascript:void(0);" class="hamburger">
+        <i class="fa-solid fa-bars"></i>
+      </a>
+    </div>
+    <div class="menu">
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Movies</a></li>
+          <li><a href="#">TV Shows</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+      <div class="search">
+        <input type="text" name="searched" id="searched">
+        <i class="fas fa-search"></i>
+      </div>
+    </div>
+  </header>
+  <main class="container">
+    <div class="movie-list">
+      <div class="movie">
+        <div class="poster">
+          <figure>
+            <i class="fa-solid fa-circle-play hidden one"></i>
+            <img src="images/avatar.jpg" alt="Avatar" width="300" height="444" loading="lazy">
+          </figure>
+        </div>
+        <h2 class="movie-title">
+          Avatar
+        </h2>
+      </div>
+      <div class="movie">
+        <div class="poster">
+          <figure>
+            <i class="fa-solid fa-circle-play hidden"></i>
+            <img src="images/i-am-legend.jpg" alt="I Am Legend" width="640" height="892" loading="lazy">
+          </figure>
+        </div>
+        <h2 class="movie-title">
+          I Am Legend
+        </h2>
+      </div>
+      <div class="movie">
+        <div class="poster">
+          <figure>
+            <i class="fa-solid fa-circle-play hidden"></i>
+            <img src="images/300.jpg" alt="300" width="520" height="804" loading="lazy">
+          </figure>
+        </div>
+        <h2 class="movie-title">
+          300
+        </h2>
+      </div>
+      <div class="movie">
+        <div class="poster">
+          <figure>
+            <i class="fa-solid fa-circle-play hidden"></i>
+            <img src="images/the-avengers.jpg" alt="The Avengers" width="776" height="1200" loading="lazy">
+          </figure>
+        </div>
+        <h2 class="movie-title">
+          The Avengers
+        </h2>
+      </div>
+      <div class="movie">
+        <div class="poster">
+          <figure>
+            <i class="fa-solid fa-circle-play hidden"></i>
+            <img src="images/the-wolf-of-wall-street.webp" alt="The Wolf of Wall Street" width="427" height="640" loading="lazy">
+          </figure>
+        </div>
+        <h2 class="movie-title">
+          The Wolf of Wall Street
+        </h2>
+      </div>
+      <div class="movie">
+        <div class="poster">
+          <figure>
+            <i class="fa-solid fa-circle-play hidden"></i>
+            <img src="images/interstellar.jpg" alt="Interstellar" width="194" height="259" loading="lazy">
+          </figure>
+        </div>
+        <h2 class="movie-title">
+          Interstellar
+        </h2>
+      </div>
+      <div class="movie">
+        <div class="poster">
+          <figure>
+            <i class="fa-solid fa-circle-play hidden"></i>
+            <img src="images/game of-thromes.jpg" alt="Game of Thrones" width="728" height="1079" loading="lazy">
+          </figure>
+        </div>
+        <h2 class="movie-title">
+          Game of Thrones
+        </h2>
+      </div>
+      <div class="movie">
+        <div class="poster">
+          <figure>
+            <i class="fa-solid fa-circle-play hidden"></i>
+            <img src="images/vikings.jpg" alt="Vikings" width="183" height="275" loading="lazy">
+          </figure>
+        </div>
+        <h2 class="movie-title">
+          Vikings
+        </h2>
+      </div>
+      <div class="movie">
+        <div class="poster">
+          <figure>
+            <i class="fa-solid fa-circle-play hidden"></i>
+            <img src="images/gotham.jpg" alt="Gotham" width="427" height="640" loading="lazy">
+          </figure>
+        </div>
+        <h2 class="movie-title">
+          Gotham
+        </h2>
+      </div>
+      <div class="movie">
+        <div class="poster">
+          <figure>
+            <i class="fa-solid fa-circle-play hidden"></i>
+            <img src="images/power.jpg" alt="Power" width="612" height="918" loading="lazy">
+          </figure>
+        </div>
+        <h2 class="movie-title">
+          Power
+        </h2>
+      </div>
+      <div class="movie">
+        <div class="poster">
+          <figure>
+            <i class="fa-solid fa-circle-play hidden"></i>
+            <img src="images/narcos.jpg" alt="Narcos" width="960" height="1440" loading="lazy">
+          </figure>
+        </div>
+        <h2 class="movie-title">
+          Narcos
+        </h2>
+      </div>
+      <div class="movie">
+        <div class="poster">
+          <figure>
+            <i class="fa-solid fa-circle-play hidden"></i>
+            <img src="images/breaking-bad.jpg" alt="Breaking Bad" width="1080" height="1350" loading="lazy">
+          </figure>
+        </div>
+        <h2 class="movie-title">
+          Breaking Bad
+        </h2>
+      </div>
+      <div class="movie">
+        <div class="poster">
+          <figure>
+            <i class="fa-solid fa-circle-play hidden"></i>
+            <img src="images/doctor-strange.jpg" alt="Doctor Strange" width="563" height="834" loading="lazy">
+          </figure>
+        </div>
+        <h2 class="movie-title">
+          Doctor Strange
+        </h2>
+      </div>
+      <div class="movie">
+        <div class="poster">
+          <figure>
+            <i class="fa-solid fa-circle-play hidden"></i>
+            <img src="images/rogue-one.jpg" alt="Rogue One: A Star Wars Story" width="466" height="709" loading="lazy">
+          </figure>
+        </div>
+        <h2 class="movie-title">
+          Rogue One: A Star Wars Story
+        </h2>
+      </div>
+      <div class="movie">
+        <div class="poster">
+          <figure>
+            <i class="fa-solid fa-circle-play hidden"></i>
+            <img src="images/assassins-creed.jpg" alt="Assassin's Creed" width="533" height="800" loading="lazy">
+          </figure>
+        </div>
+        <h2 class="movie-title">
+          Assassin's Creed
+        </h2>
+      </div>
+      <div class="movie">
+        <div class="poster">
+          <figure>
+            <i class="fa-solid fa-circle-play hidden"></i>
+            <img src="images/luke-cage.jpg" alt="Luke Cage" width="724" height="1024" loading="lazy">
+          </figure>
+        </div>
+        <h2 class="movie-title">
+          Luke Cage
+        </h2>
+      </div>
+
+    </div>
+
+    <!--Modal on click-->
+    <div id="myModal" class="modal">
+      <i class="fa-solid fa-xmark close"></i>
+      <div class="modal-content">
+        <figure>
+          <img class="modal-image" id="modalImg">
+        </figure>
+        <div class="modal-movie-info">
+          <div class="modal-movie-main">
+            <h2 class="modal-movie-title"></h2>
+            <div class="movie-rating">IMDB: <span id="rating">5</span></div>
+            <p class="modal-movie-plot"></p>
+          </div>
+          <div class="movie-extra-info">
+            <div>
+              <p>
+                <span class="title">Released: </span>
+                <span id="released"></span>
+              </p>
+            </div>
+            <div>
+              <p>
+                <span class="title">Genre: </span>
+                <span id="genre"></span>
+              </p>
+            </div>
+            <div>
+              <p>
+                <span class="title">Actors: </span>
+                <span id="actors"></span>
+              </p>
+            </div>
+            <div>
+              <p>
+                <span class="title">Runtime: </span>
+                <span id="runtime"></span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
